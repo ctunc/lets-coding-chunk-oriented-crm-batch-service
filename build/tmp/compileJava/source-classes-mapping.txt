@@ -1,0 +1,16 @@
+com/letscoding/batch/chunkorientedcrm/repository/postgress/EmployeeRepository.java
+ com.letscoding.batch.chunkorientedcrm.repository.postgress.EmployeeRepository
+com/letscoding/batch/chunkorientedcrm/dbmodel/postgress/Employee.java
+ com.letscoding.batch.chunkorientedcrm.dbmodel.postgress.Employee
+com/letscoding/batch/chunkorientedcrm/util/DozeBeanConfig.java
+ com.letscoding.batch.chunkorientedcrm.util.DozeBeanConfig
+com/letscoding/batch/chunkorientedcrm/job/ChunkOrientedCrmWriter.java
+ com.letscoding.batch.chunkorientedcrm.job.ChunkOrientedCrmWriter
+com/letscoding/batch/chunkorientedcrm/dto/EmployeeDTO.java
+ com.letscoding.batch.chunkorientedcrm.dto.EmployeeDTO
+com/letscoding/batch/chunkorientedcrm/config/ChunkOrientedCrmCronJobConfiguration.java
+ com.letscoding.batch.chunkorientedcrm.config.ChunkOrientedCrmCronJobConfiguration
+com/letscoding/batch/chunkorientedcrm/SpringBatchApplication.java
+ com.letscoding.batch.chunkorientedcrm.SpringBatchApplication
+com/letscoding/batch/chunkorientedcrm/job/ChunkOrientedCrmReader.java
+ com.letscoding.batch.chunkorientedcrm.job.ChunkOrientedCrmReader

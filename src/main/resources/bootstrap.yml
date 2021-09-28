@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: lets-coding-chunk-oriented-crm-batch-service
+  cloud:
+    config:
+      label: master

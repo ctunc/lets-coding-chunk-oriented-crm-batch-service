@@ -1,0 +1,33 @@
+create schema emp
+
+CREATE TABLE emp_user (
+	id  PRIMARY KEY,
+	empname VARCHAR ( 50 ) ,
+	username VARCHAR ( 50 ) ,
+	status VARCHAR ( 50 )
+);
+
+select * from public.task_execution;
+
+
+CREATE TABLE emp_user (
+	id serial PRIMARY KEY,
+	empname VARCHAR ( 50 ),
+	username VARCHAR ( 50 ),
+	status VARCHAR ( 255 )
+);
+
+
+insert into emp_user (id,empname,username,status)values(5,'fghfg','wer','active');
+
+select * from emp_user;
+
+select * from users;
+
+CREATE TABLE users(
+    id bigint,
+    PRIMARY KEY(id),
+    hash_firstname TEXT NOT NULL,
+    hash_lastname TEXT NOT NULL,
+    gender VARCHAR(6) NOT NULL CHECK (gender IN ('male', 'female'))
+);
